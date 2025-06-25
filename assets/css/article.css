@@ -1,0 +1,11 @@
+.article {
+    padding: 1rem;
+    width: 100%;
+    font-family: 'Open Sans';
+    background-color: #FAFAFA;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #333333;
+    font-size: 1.2rem;
+    overflow: auto;
+}

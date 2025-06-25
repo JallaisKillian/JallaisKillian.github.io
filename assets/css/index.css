@@ -1,0 +1,41 @@
+.home {
+    position: relative;
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    line-height: normal;
+    width: 100%;
+}
+
+.home-container {
+    width: 90%;
+    margin: auto;
+}
+
+.home .c1 {
+    position: relative;
+}
+
+.home .c1 h1 {
+    text-align: center;
+    font-size: 4.2rem;
+    text-shadow: 0 1px 0 #17202A, 0 2px 0 #17202A,
+    0 3px 0 #17202A, 0 4px 0 #17202A,
+    0 5px 0 #17202A, 0 6px 0 #17202A;
+}
+
+.home .c1 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.home .c2 {
+    width: 70%;
+    margin: 2rem auto 0 auto;
+}
+
+.home .c2 h4 {
+    text-align: center;
+}

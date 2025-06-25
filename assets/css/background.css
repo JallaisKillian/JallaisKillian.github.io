@@ -1,0 +1,97 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.clickable-image {
+    cursor: pointer;
+    transition: scale 0.2s ease-in-out;
+}
+
+.clickable-image:hover {
+    scale: 1.05;
+}
+
+.clickable-image:active {
+    scale: 1;
+}
+
+.alan-turing1 {
+    height: 17.5rem;
+    width: auto;
+    transform: rotate(20deg) translate(10%);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.grace_hopper1 {
+    height: 15rem;
+    width: auto;
+    position: absolute;
+    transform: translate(-10%, -50%) rotate(-15deg);
+    left: 0;
+    top: 50%;
+}
+
+.ada-citation1 {
+    max-width: 400px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%) rotate(-5deg);
+}
+
+.ada-citation1 p:first-child {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.teapot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.arch-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.5rem;
+    transform: rotate(135deg);
+}
+
+.penseur {
+    position: absolute;
+    left: 25%;
+    bottom: -5%;
+    transform: rotate(20deg);
+    height: 30rem;
+    width: auto;
+}
+
+.margaret-hamilton {
+    font-size: 0.1rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    transform: rotate(-20deg);
+    color: #c05f0a;
+}
+
+.text1 {
+    position: absolute;
+    top: 80%;
+    right: 20%;
+    transform: rotate(15deg);
+    font-size: 1.3rem;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Pixel Arial 11";
+    src: url("/assets/fonts/pixel_arial_11/pixearg_-webfont.woff2")
+            format("woff2"),
+        url("/assets/fonts/pixel_arial_11/pixearg_-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tiny5";
+    src: url("/assets/fonts/Tiny5/Tiny5-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jersey 10";
+    src: url("/assets/fonts/Jersey_10/Jersey10-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+            format("truetype"),
+        url("/assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

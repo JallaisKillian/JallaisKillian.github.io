@@ -1,0 +1,11 @@
+:root {
+    --primary-font-color: #bb7030;
+    --primary-font-color-rgb: 187, 112, 48;
+    --second-font-color: #f8f8e8;
+
+    --primary-background-color: #f8f8e8;
+    --second-background-color: #dca779;
+    
+    --first-font: normal 400 1rem "Jersey 10", sans-serif;
+    --second-font: normal 400 1rem "Tiny5", sans-serif;
+}

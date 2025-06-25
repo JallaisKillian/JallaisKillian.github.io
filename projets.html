@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/projets.css" />
+
+<div class="projets">
+    <div class="top-bar">
+        <input class="search-input" type="text" name="" id="" />
+        <button class="search-button retro-button" title="Rechercher">
+            <img
+                class="search-icon"
+                src="/assets/images/search-icon.png"
+                alt=""
+            />
+        </button>
+    </div>
+    <div class="search-result">
+        <div class="project-list">
+            {% for item in site.data.projets %}
+                {% if item.visible %}
+                    <div class="project-item">
+                        <a href="{{item.url}}" class="project-title">{{item.title}}</a>
+                        <p class="project-description">{{item.description}}</p>
+                        <p class="pourfairejolie">www.pourfairejolie.com</p>
+                    </div>
+                {% endif %}
+            {% endfor %} {% if site.data.projets.size == 0 %}
+            <div class="project-item">
+                <span class="project-title">Aucun projet pour le moment :(</span>
+                <p class="project-description">
+                    N'hésite pas à revenir plus tard, j'aurai peut-être mis
+                    quelque chose d'ici là !
+                </p>
+                <p class="pourfairejolie">www.pourfairejolie.com</p>
+            </div>
+            {% endif %}
+        </div>
+        <div class="scroll-bar">
+            <button class="up-arrow-button retro-button">
+                <img src="/assets/images/up-arrow.png" alt="" />
+            </button>
+            <div class="slide">
+                <div class="slider"></div>
+            </div>
+            <button class="down-arrow-button retro-button">
+                <img src="/assets/images/down-arrow.png" alt="" />
+            </button>
+        </div>
+    </div>
+    <div class="bottom-bar"></div>
+</div>
+
+<script src="/assets/js/scrollbar.js"></script>
+<script src="/assets/js/search.js"></script>

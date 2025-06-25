@@ -1,0 +1,164 @@
+.projets {
+    background-color: #e6e6e6;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    font-size: 1rem;
+    font-family: 'Pixel Arial 11', sans-serif;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 0.25rem;
+    width: 100%;
+    
+}
+
+.projets .top-bar {
+    border: 2px solid #bfbfbf;
+    height: 1.75rem;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    padding: 2px;
+    width: calc(100% - 0.5rem);
+}
+
+.search-icon {
+    height: 100%;
+    width: auto;
+}
+
+.top-bar input[type="text"] {
+    background: #dfdfdf;
+    border: 2px solid;
+    border-color: #cecece #808080 #808080 #cecece;
+    padding: 4px;
+    font-family: "Courier New", monospace;
+    outline: none;
+    background-color: #fff;
+    font-family: 'Pixel Arial 11', sans-serif;
+    font-size: 0.7rem;
+}
+
+.retro-button {
+    background: #dfdfdf;
+    border: 2px solid;
+    border-color: #fff #808080 #808080 #fff;
+    padding: 4px;
+    font-family: "Courier New", monospace;
+    outline: none;
+    cursor: pointer;
+}
+
+.retro-button:active {
+    border-color: #808080 #fff #fff #808080;
+}
+
+.retro-button:active * {
+    margin: 2px 0 0 2px;
+}
+
+.search-button {
+    width: 2rem;
+}
+
+.search-result {
+    margin: 0.25rem 0 2px 0;
+    border: 2px solid;
+    border-color: #777777 #c2c2c2 #c2c2c2 #777777;
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    position: relative;
+    min-height: 0;
+}
+
+.project-list {
+    padding: 3rem;
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.project-list::-webkit-scrollbar {
+    display: none;
+}
+
+.project-item {
+    max-width: 70%;
+}
+
+.project-title {
+    color: #00e;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+}
+
+.project-title::after {
+    height: 1px;
+    background-color: #00e;
+    content: " ";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+}
+
+.project-description {
+    color: #000;
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.pourfairejolie {
+    color: green;
+    margin-top: 5px;
+    font-size: 0.5rem;
+}
+
+.scroll-bar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    left: 100%;
+}
+
+.scroll-bar .slide {
+    flex-grow: 1;
+    background-color: #e6e6e6;
+    min-height: 0;
+    position: relative;
+}
+
+.scroll-bar .slide .slider {
+    height: 4rem;
+    background-color: #e6e6e6;
+    border: 2px solid;
+    border-color: #dbdbdb #808080 #808080 #dbdbdb;
+    cursor: grab;
+    position: absolute;
+    top: 100px;
+    /* left: 0; */
+    width: calc(100% - 4px);
+}
+
+.scroll-bar .slide .slider:active {
+    border-color: #808080 #dbdbdb #dbdbdb #808080;
+    cursor: grabbing;
+}
+
+.up-arrow-button, .down-arrow-button {
+    width: 1.5rem;
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
