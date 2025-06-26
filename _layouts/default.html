@@ -3,17 +3,25 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: "Killian Jallais" }}</title>
-    
-    <link rel="stylesheet" href="/assets/css/variables.css">
-    <link rel="stylesheet" href="/assets/css/default.css">
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-</head>
-<body>
-    {% include background.html %}
-    {% include container.html %}
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ page.title | default: "Killian Jallais" }}</title>
+
+        <link rel="stylesheet" href="/assets/css/variables.css" />
+        <link rel="stylesheet" href="/assets/css/default.css" />
+        <link rel="stylesheet" href="/assets/css/fonts.css" />
+        <link rel="stylesheet" href="/assets/css/navbar.css" />
+        <link rel="stylesheet" href="/assets/css/container.css" />
+        <link rel="stylesheet" href="/assets/css/background.css" />
+        <link rel="stylesheet" href="/assets/css/notFound.css" />
+        <link rel="stylesheet" href="/assets/css/aPropos.css" />
+        <link rel="stylesheet" href="/assets/css/contact.css" />
+        <link rel="stylesheet" href="/assets/css/index.css" />
+        <link rel="stylesheet" href="/assets/css/mentionsLegales.css" />
+        <link rel="stylesheet" href="/assets/css/projets.css" />
+    </head>
+    <body>
+        {% include background.html %} {% include container.html %}
+    </body>
 </html>
